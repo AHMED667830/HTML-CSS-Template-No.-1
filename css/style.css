@@ -6,7 +6,9 @@
   --section-color: #f6f6f6;
   --color-p: #777;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 * {
   --webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
