@@ -44,7 +44,12 @@ body {
   color: #ebeced;
   letter-spacing: -4px;
 }
-
+@media (max-width:690px) {
+  .special-heading{
+     font-size: 82px;
+  }
+  
+}
 .special-heading + p {
   text-align: center;
   margin: -32px;
@@ -400,6 +405,17 @@ body {
 .contact .asd {
 width: 500px;
     margin: -32px auto;
+}
+
+@media (max-width:600px) {
+  .contact .asd {
+    width: 404px;
+  }
+}
+@media (max-width:350px) {
+  .contact .asd {
+    width: 320px;
+  }
 }
 
 .contact .info {
